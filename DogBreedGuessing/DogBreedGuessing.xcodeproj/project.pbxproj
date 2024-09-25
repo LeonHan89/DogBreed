@@ -18,6 +18,9 @@
 		35FCF6F32CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F02CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m */; };
 		35FCF6F42CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F12CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m */; };
 		35FCF6FA2CA3EF820001BDD8 /* DogBreedGuessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F82CA3EF820001BDD8 /* DogBreedGuessingTests.m */; };
+		7A9AE6E90AE89031D0CF118E /* Pods_DogBreedGuessing_DogBreedGuessingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7691E53BC4BB3C6B311388CA /* Pods_DogBreedGuessing_DogBreedGuessingUITests.framework */; };
+		ABF1E8CCF8CE7375E4ACE12C /* Pods_DogBreedGuessingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2D3FA61F47DC8151602DD4 /* Pods_DogBreedGuessingTests.framework */; };
+		E3AC8ABEC88931941635920E /* Pods_DogBreedGuessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88401FE74586BDE6E2AE8DEC /* Pods_DogBreedGuessing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,15 @@
 		35FCF6F02CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingUITests.m; sourceTree = "<group>"; };
 		35FCF6F12CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingUITestsLaunchTests.m; sourceTree = "<group>"; };
 		35FCF6F82CA3EF820001BDD8 /* DogBreedGuessingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingTests.m; sourceTree = "<group>"; };
+		7691E53BC4BB3C6B311388CA /* Pods_DogBreedGuessing_DogBreedGuessingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogBreedGuessing_DogBreedGuessingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C6B88066D0BC1955BCFF1B /* Pods-DogBreedGuessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessing.debug.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessing/Pods-DogBreedGuessing.debug.xcconfig"; sourceTree = "<group>"; };
+		88401FE74586BDE6E2AE8DEC /* Pods_DogBreedGuessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogBreedGuessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5761700C4DB38A6D884324E /* Pods-DogBreedGuessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessing.release.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessing/Pods-DogBreedGuessing.release.xcconfig"; sourceTree = "<group>"; };
+		C525E1C5F3125C28F1D6442A /* Pods-DogBreedGuessingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessingTests.release.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessingTests/Pods-DogBreedGuessingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C67811848A2529491FC8EA9A /* Pods-DogBreedGuessing-DogBreedGuessingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessing-DogBreedGuessingUITests.release.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC2D3FA61F47DC8151602DD4 /* Pods_DogBreedGuessingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogBreedGuessingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7388A71FCEEB037765C850E /* Pods-DogBreedGuessingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessingTests.debug.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessingTests/Pods-DogBreedGuessingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9741DAB1E53FE795950EED4 /* Pods-DogBreedGuessing-DogBreedGuessingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogBreedGuessing-DogBreedGuessingUITests.debug.xcconfig"; path = "Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AC8ABEC88931941635920E /* Pods_DogBreedGuessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF1E8CCF8CE7375E4ACE12C /* Pods_DogBreedGuessingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9AE6E90AE89031D0CF118E /* Pods_DogBreedGuessing_DogBreedGuessingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,8 @@
 				35FCF6F92CA3EF820001BDD8 /* DogBreedGuessingTests */,
 				35FCF6F22CA3EF0E0001BDD8 /* DogBreedGuessingUITests */,
 				350D8E742CA3CBA4008DC9C8 /* Products */,
+				550A5DCF6F34A62022B19159 /* Pods */,
+				3C044B5CDB04E6078BDB5099 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +204,30 @@
 			path = DogBreedGuessingTests;
 			sourceTree = "<group>";
 		};
+		3C044B5CDB04E6078BDB5099 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88401FE74586BDE6E2AE8DEC /* Pods_DogBreedGuessing.framework */,
+				7691E53BC4BB3C6B311388CA /* Pods_DogBreedGuessing_DogBreedGuessingUITests.framework */,
+				CC2D3FA61F47DC8151602DD4 /* Pods_DogBreedGuessingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		550A5DCF6F34A62022B19159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C6B88066D0BC1955BCFF1B /* Pods-DogBreedGuessing.debug.xcconfig */,
+				A5761700C4DB38A6D884324E /* Pods-DogBreedGuessing.release.xcconfig */,
+				E9741DAB1E53FE795950EED4 /* Pods-DogBreedGuessing-DogBreedGuessingUITests.debug.xcconfig */,
+				C67811848A2529491FC8EA9A /* Pods-DogBreedGuessing-DogBreedGuessingUITests.release.xcconfig */,
+				E7388A71FCEEB037765C850E /* Pods-DogBreedGuessingTests.debug.xcconfig */,
+				C525E1C5F3125C28F1D6442A /* Pods-DogBreedGuessingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,17 +235,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 350D8EA42CA3CBA5008DC9C8 /* Build configuration list for PBXNativeTarget "DogBreedGuessing" */;
 			buildPhases = (
+				8627FC40F99E363FD69534EA /* [CP] Check Pods Manifest.lock */,
 				350D8E6F2CA3CBA4008DC9C8 /* Sources */,
 				350D8E702CA3CBA4008DC9C8 /* Frameworks */,
 				350D8E712CA3CBA4008DC9C8 /* Resources */,
+				B1D99A89C32F5BC60E288D10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DogBreedGuessing;
-			packageProductDependencies = (
-			);
 			productName = DogBreedGuessing;
 			productReference = 350D8E732CA3CBA4008DC9C8 /* DogBreedGuessing.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 350D8EA92CA3CBA5008DC9C8 /* Build configuration list for PBXNativeTarget "DogBreedGuessingTests" */;
 			buildPhases = (
+				63AE1640D2E5FBCC4B52827A /* [CP] Check Pods Manifest.lock */,
 				350D8E8D2CA3CBA4008DC9C8 /* Sources */,
 				350D8E8E2CA3CBA4008DC9C8 /* Frameworks */,
 				350D8E8F2CA3CBA4008DC9C8 /* Resources */,
@@ -223,8 +265,6 @@
 				350D8E932CA3CBA4008DC9C8 /* PBXTargetDependency */,
 			);
 			name = DogBreedGuessingTests;
-			packageProductDependencies = (
-			);
 			productName = DogBreedGuessingTests;
 			productReference = 350D8E912CA3CBA4008DC9C8 /* DogBreedGuessingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -233,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 350D8EAC2CA3CBA5008DC9C8 /* Build configuration list for PBXNativeTarget "DogBreedGuessingUITests" */;
 			buildPhases = (
+				65F1C587C2AA6C5FE9F2C1DD /* [CP] Check Pods Manifest.lock */,
 				350D8E972CA3CBA4008DC9C8 /* Sources */,
 				350D8E982CA3CBA4008DC9C8 /* Frameworks */,
 				350D8E992CA3CBA4008DC9C8 /* Resources */,
+				E1868C4D6BE899ADDD4D8C56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,8 +285,6 @@
 				350D8E9D2CA3CBA4008DC9C8 /* PBXTargetDependency */,
 			);
 			name = DogBreedGuessingUITests;
-			packageProductDependencies = (
-			);
 			productName = DogBreedGuessingUITests;
 			productReference = 350D8E9B2CA3CBA4008DC9C8 /* DogBreedGuessingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -319,6 +359,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63AE1640D2E5FBCC4B52827A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogBreedGuessingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65F1C587C2AA6C5FE9F2C1DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogBreedGuessing-DogBreedGuessingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8627FC40F99E363FD69534EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogBreedGuessing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D99A89C32F5BC60E288D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing/Pods-DogBreedGuessing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing/Pods-DogBreedGuessing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing/Pods-DogBreedGuessing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1868C4D6BE899ADDD4D8C56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		350D8E6F2CA3CBA4008DC9C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -386,6 +529,7 @@
 /* Begin XCBuildConfiguration section */
 		350D8EA52CA3CBA5008DC9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C6B88066D0BC1955BCFF1B /* Pods-DogBreedGuessing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +562,7 @@
 		};
 		350D8EA62CA3CBA5008DC9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5761700C4DB38A6D884324E /* Pods-DogBreedGuessing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -565,6 +710,7 @@
 		};
 		350D8EAA2CA3CBA5008DC9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7388A71FCEEB037765C850E /* Pods-DogBreedGuessingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +729,7 @@
 		};
 		350D8EAB2CA3CBA5008DC9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C525E1C5F3125C28F1D6442A /* Pods-DogBreedGuessingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +748,7 @@
 		};
 		350D8EAD2CA3CBA5008DC9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9741DAB1E53FE795950EED4 /* Pods-DogBreedGuessing-DogBreedGuessingUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -617,6 +765,7 @@
 		};
 		350D8EAE2CA3CBA5008DC9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67811848A2529491FC8EA9A /* Pods-DogBreedGuessing-DogBreedGuessingUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
