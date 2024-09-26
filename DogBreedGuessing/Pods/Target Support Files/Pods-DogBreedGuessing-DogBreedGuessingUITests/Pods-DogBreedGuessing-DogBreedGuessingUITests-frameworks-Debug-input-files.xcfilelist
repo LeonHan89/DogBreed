@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DogBreedGuessing-DogBreedGuessingUITests/Pods-DogBreedGuessing-DogBreedGuessingUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ConfettiView-NSHipster/ConfettiView.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

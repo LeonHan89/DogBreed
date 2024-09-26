@@ -1,18 +1,22 @@
 PODS:
-  - SDWebImage (5.15.5):
-    - SDWebImage/Core (= 5.15.5)
-  - SDWebImage/Core (5.15.5)
+  - ConfettiView-NSHipster (0.3.1)
+  - SDWebImage (5.19.7):
+    - SDWebImage/Core (= 5.19.7)
+  - SDWebImage/Core (5.19.7)
 
 DEPENDENCIES:
-  - SDWebImage (= 5.15.5)
+  - ConfettiView-NSHipster
+  - SDWebImage
 
 SPEC REPOS:
   trunk:
+    - ConfettiView-NSHipster
     - SDWebImage
 
 SPEC CHECKSUMS:
-  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  ConfettiView-NSHipster: dd3f241dc342250ee37e0fc07e6d1adb6695eb0b
+  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
 
-PODFILE CHECKSUM: 543a39904b1cd1d9df71bf99d0ea90cd1e4a9902
+PODFILE CHECKSUM: 5cf8ebf16597ec56191962c9210e904ac72663b0
 
 COCOAPODS: 1.15.2

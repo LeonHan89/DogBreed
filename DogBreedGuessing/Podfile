@@ -8,7 +8,8 @@ target 'DogBreedGuessing' do
   use_frameworks!
 
   # Pods for DogBreedGuessing
-  pod 'SDWebImage', '5.15.5'
+  pod 'SDWebImage'
+  pod 'ConfettiView-NSHipster'
 
   target 'DogBreedGuessingTests' do
     inherit! :search_paths
