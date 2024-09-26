@@ -1,13 +1,13 @@
 //
-//  ProfileViewController.m
+//  MainTabBarController.m
 //  DogBreedGuessing
 //
 //  Created by Leon on 2024/9/26.
 //
 
-#import "ProfileViewController.h"
+#import "MainTabBarController.h"
 
-@implementation ProfileViewController
+@implementation MainTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

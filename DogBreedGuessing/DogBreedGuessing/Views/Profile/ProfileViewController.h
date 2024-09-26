@@ -5,8 +5,8 @@
 //  Created by Leon on 2024/9/26.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface ProfileViewController : NSObject
+@interface ProfileViewController : UIViewController
 
 @end

@@ -14,8 +14,9 @@
 		350D8ED42CA3EB89008DC9C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D8EC72CA3EB89008DC9C8 /* AppDelegate.m */; };
 		350D8ED52CA3EB89008DC9C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D8EC92CA3EB89008DC9C8 /* main.m */; };
 		350D8ED62CA3EB89008DC9C8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D8ECB2CA3EB89008DC9C8 /* SceneDelegate.m */; };
-		352C01B42CA57A4500E9FCDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01B32CA57A4500E9FCDC /* GalleryViewController.m */; };
-		352C01B82CA57A7B00E9FCDC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01B72CA57A7B00E9FCDC /* ProfileViewController.m */; };
+		352C01BB2CA57B4800E9FCDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */; };
+		352C01BE2CA57B5600E9FCDC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */; };
+		352C01C12CA57B6E00E9FCDC /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */; };
 		35F1437C2CA4088700AD18B7 /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437B2CA4088700AD18B7 /* Breed.m */; };
 		35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437F2CA5060C00AD18B7 /* DogAPIServiceManager.m */; };
 		35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F143852CA50A3500AD18B7 /* BreedsListService.m */; };
@@ -61,10 +62,12 @@
 		350D8EC92CA3EB89008DC9C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		350D8ECA2CA3EB89008DC9C8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		350D8ECB2CA3EB89008DC9C8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		352C01B22CA57A4500E9FCDC /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
-		352C01B32CA57A4500E9FCDC /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
-		352C01B62CA57A7B00E9FCDC /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		352C01B72CA57A7B00E9FCDC /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		352C01B92CA57B4800E9FCDC /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		352C01BC2CA57B5600E9FCDC /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		352C01BF2CA57B6E00E9FCDC /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		35F1437A2CA4088700AD18B7 /* Breed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
 		35F1437B2CA4088700AD18B7 /* Breed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
 		35F1437E2CA5060C00AD18B7 /* DogAPIServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAPIServiceManager.h; sourceTree = "<group>"; };
@@ -186,7 +189,7 @@
 				350D8EC12CA3EB89008DC9C8 /* Home */,
 				352C01B02CA57A0300E9FCDC /* Gallery */,
 				352C01B12CA57A1600E9FCDC /* Profile */,
-				352C01B52CA57A5300E9FCDC /* MainStoryBoard */,
+				352C01B52CA57A5300E9FCDC /* MainPage */,
 				350D8EC42CA3EB89008DC9C8 /* LaunchScreen */,
 			);
 			path = Views;
@@ -213,8 +216,8 @@
 		352C01B02CA57A0300E9FCDC /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				352C01B22CA57A4500E9FCDC /* GalleryViewController.h */,
-				352C01B32CA57A4500E9FCDC /* GalleryViewController.m */,
+				352C01B92CA57B4800E9FCDC /* GalleryViewController.h */,
+				352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -222,18 +225,20 @@
 		352C01B12CA57A1600E9FCDC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				352C01B62CA57A7B00E9FCDC /* ProfileViewController.h */,
-				352C01B72CA57A7B00E9FCDC /* ProfileViewController.m */,
+				352C01BC2CA57B5600E9FCDC /* ProfileViewController.h */,
+				352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		352C01B52CA57A5300E9FCDC /* MainStoryBoard */ = {
+		352C01B52CA57A5300E9FCDC /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
 				350D8EBE2CA3EB89008DC9C8 /* Main.storyboard */,
+				352C01BF2CA57B6E00E9FCDC /* MainTabBarController.h */,
+				352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */,
 			);
-			path = MainStoryBoard;
+			path = MainPage;
 			sourceTree = "<group>";
 		};
 		35F143792CA400DB00AD18B7 /* Services */ = {
@@ -532,15 +537,16 @@
 			files = (
 				350D8ED32CA3EB89008DC9C8 /* HomeViewController.m in Sources */,
 				350D8ED42CA3EB89008DC9C8 /* AppDelegate.m in Sources */,
+				352C01C12CA57B6E00E9FCDC /* MainTabBarController.m in Sources */,
 				35F1438C2CA50BE600AD18B7 /* BaseService.m in Sources */,
 				350D8ED52CA3EB89008DC9C8 /* main.m in Sources */,
 				35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */,
 				35F143892CA50A7B00AD18B7 /* BreedImageService.m in Sources */,
 				35F1437C2CA4088700AD18B7 /* Breed.m in Sources */,
 				35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */,
-				352C01B82CA57A7B00E9FCDC /* ProfileViewController.m in Sources */,
+				352C01BE2CA57B5600E9FCDC /* ProfileViewController.m in Sources */,
 				350D8ED62CA3EB89008DC9C8 /* SceneDelegate.m in Sources */,
-				352C01B42CA57A4500E9FCDC /* GalleryViewController.m in Sources */,
+				352C01BB2CA57B4800E9FCDC /* GalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
