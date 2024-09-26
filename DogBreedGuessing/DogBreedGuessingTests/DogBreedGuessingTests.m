@@ -6,6 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Breed.h"
 
 @interface DogBreedGuessingTests : XCTestCase
 

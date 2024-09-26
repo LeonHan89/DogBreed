@@ -1,17 +1,13 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  DogBreedGuessing
 //
 //  Created by Leon on 2024/9/25.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
