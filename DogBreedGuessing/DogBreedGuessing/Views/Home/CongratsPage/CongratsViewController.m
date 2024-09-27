@@ -21,6 +21,8 @@
     [self requestImage];
 }
 
+// MARK: - Services
+
 - (void)requestImage {
     BreedImageService *imageService = [[BreedImageService alloc] init];
     __weak typeof (self) weakSelf = self;

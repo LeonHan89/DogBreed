@@ -7,6 +7,7 @@
 
 #import "GalleryViewController.h"
 #import "GalleryTableViewCell.h"
+#import "GalleryDetailViewController.h"
 
 @implementation GalleryViewController
 
@@ -18,6 +19,8 @@
 - (IBAction)onDismiss:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+// MARK: - Table view delegates
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     GalleryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GalleryCell"];
@@ -31,7 +34,15 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    self.selectedBreed = self.dataSource[indexPath.row];
+    [self performSegueWithIdentifier:@"SegueGalleryDetail" sender:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"SegueGalleryDetail"]) {
+        GalleryDetailViewController *vc = [segue destinationViewController];
+        vc.breed = self.selectedBreed;
+    }
 }
 
 @end

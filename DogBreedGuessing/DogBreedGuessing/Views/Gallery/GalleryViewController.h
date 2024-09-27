@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray<Breed *> *dataSource;
+@property (strong, nonatomic) Breed *selectedBreed;
 
 @end

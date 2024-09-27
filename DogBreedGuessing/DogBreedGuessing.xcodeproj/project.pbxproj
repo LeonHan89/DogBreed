@@ -24,6 +24,8 @@
 		3587F2272CA69463001A2123 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587F2262CA69463001A2123 /* MenuTableViewCell.m */; };
 		3587F22A2CA69DCB001A2123 /* GalleryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587F2292CA69DCB001A2123 /* GalleryTableViewCell.m */; };
 		3587F22D2CA6A099001A2123 /* GalleryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587F22C2CA6A099001A2123 /* GalleryDetailViewController.m */; };
+		3587F22F2CA6A218001A2123 /* GalleryDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3587F22E2CA6A218001A2123 /* GalleryDetail.storyboard */; };
+		3587F2332CA6A35C001A2123 /* GalleryDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587F2322CA6A35C001A2123 /* GalleryDetailTableViewCell.m */; };
 		35F1437C2CA4088700AD18B7 /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437B2CA4088700AD18B7 /* Breed.m */; };
 		35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437F2CA5060C00AD18B7 /* DogAPIServiceManager.m */; };
 		35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F143852CA50A3500AD18B7 /* BreedsListService.m */; };
@@ -88,6 +90,9 @@
 		3587F2292CA69DCB001A2123 /* GalleryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryTableViewCell.m; sourceTree = "<group>"; };
 		3587F22B2CA6A099001A2123 /* GalleryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryDetailViewController.h; sourceTree = "<group>"; };
 		3587F22C2CA6A099001A2123 /* GalleryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryDetailViewController.m; sourceTree = "<group>"; };
+		3587F22E2CA6A218001A2123 /* GalleryDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GalleryDetail.storyboard; sourceTree = "<group>"; };
+		3587F2312CA6A35C001A2123 /* GalleryDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryDetailTableViewCell.h; sourceTree = "<group>"; };
+		3587F2322CA6A35C001A2123 /* GalleryDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryDetailTableViewCell.m; sourceTree = "<group>"; };
 		35F1437A2CA4088700AD18B7 /* Breed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
 		35F1437B2CA4088700AD18B7 /* Breed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
 		35F1437E2CA5060C00AD18B7 /* DogAPIServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAPIServiceManager.h; sourceTree = "<group>"; };
@@ -242,10 +247,9 @@
 		352C01B02CA57A0300E9FCDC /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				3587F2302CA6A340001A2123 /* Detail */,
 				352C01B92CA57B4800E9FCDC /* GalleryViewController.h */,
 				352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */,
-				3587F22B2CA6A099001A2123 /* GalleryDetailViewController.h */,
-				3587F22C2CA6A099001A2123 /* GalleryDetailViewController.m */,
 				352C01C52CA5809300E9FCDC /* Gallery.storyboard */,
 				3587F2282CA69DCB001A2123 /* GalleryTableViewCell.h */,
 				3587F2292CA69DCB001A2123 /* GalleryTableViewCell.m */,
@@ -282,6 +286,18 @@
 				3587F2262CA69463001A2123 /* MenuTableViewCell.m */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		3587F2302CA6A340001A2123 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3587F22B2CA6A099001A2123 /* GalleryDetailViewController.h */,
+				3587F22C2CA6A099001A2123 /* GalleryDetailViewController.m */,
+				3587F2312CA6A35C001A2123 /* GalleryDetailTableViewCell.h */,
+				3587F2322CA6A35C001A2123 /* GalleryDetailTableViewCell.m */,
+				3587F22E2CA6A218001A2123 /* GalleryDetail.storyboard */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		35F143792CA400DB00AD18B7 /* Services */ = {
@@ -460,6 +476,7 @@
 			files = (
 				350D8ECE2CA3EB89008DC9C8 /* Assets.xcassets in Resources */,
 				352C01C62CA5809300E9FCDC /* Gallery.storyboard in Resources */,
+				3587F22F2CA6A218001A2123 /* GalleryDetail.storyboard in Resources */,
 				35F1D1FC2CA6745000168EBF /* Congrats.storyboard in Resources */,
 				352C01E02CA5965200E9FCDC /* Home.storyboard in Resources */,
 				352C01E62CA5970D00E9FCDC /* SlideMenu.storyboard in Resources */,
@@ -599,6 +616,7 @@
 				35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */,
 				35F143892CA50A7B00AD18B7 /* BreedImageService.m in Sources */,
 				3587F2272CA69463001A2123 /* MenuTableViewCell.m in Sources */,
+				3587F2332CA6A35C001A2123 /* GalleryDetailTableViewCell.m in Sources */,
 				352C01D92CA589A000E9FCDC /* UIViewController+SlideMenu.m in Sources */,
 				3587F22D2CA6A099001A2123 /* GalleryDetailViewController.m in Sources */,
 				3587F22A2CA69DCB001A2123 /* GalleryTableViewCell.m in Sources */,

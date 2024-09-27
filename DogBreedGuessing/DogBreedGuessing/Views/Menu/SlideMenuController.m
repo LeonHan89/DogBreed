@@ -21,6 +21,8 @@
     // Do any additional setup after loading the view.
 }
 
+// MARK: - Table view delegates
+
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath { 
     MenuTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MenuCell"];
     if (indexPath.row == 0) {

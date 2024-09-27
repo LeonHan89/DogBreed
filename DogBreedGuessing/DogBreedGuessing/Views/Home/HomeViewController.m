@@ -157,6 +157,8 @@
     [self finishAnswerChoosing];
 }
 
+// MARK: - Slide menu delegate
+
 - (void)slideMenuDidSelectOption:(NSInteger)option {
     [self.slideMenu showRootViewControllerAnimated:YES];
     if (option == 0) {
