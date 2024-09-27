@@ -6,7 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Breed.h"
 
-@interface GalleryViewController : UIViewController
+@interface GalleryViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSArray<Breed *> *dataSource;
 
 @end

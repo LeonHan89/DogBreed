@@ -10,6 +10,7 @@
 #import "BreedImageService.h"
 #import "BreedsListService.h"
 #import <SDWebImage/SDWebImage.h>
+#import "GalleryViewController.h"
 
 @implementation HomeViewController
 
@@ -72,10 +73,13 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"SegueCongrats"]) {
+    if ([segue.identifier isEqualToString:@"SegueCongrats"]) {
         CongratsViewController *vc = [segue destinationViewController];
         vc.delegate = self;
         vc.breed = self.breedForImage;
+    } else if ([segue.identifier isEqualToString:@"SegueGallery"]) {
+        GalleryViewController *vc = [segue destinationViewController];
+        vc.dataSource = self.dataSource;
     }
 }
 
