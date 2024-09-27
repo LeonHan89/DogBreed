@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 @property (weak, nonatomic) IBOutlet UIButton *chooseAnswerButton;
+@property (weak, nonatomic) IBOutlet UILabel *incorrectAnswerWarningLabel;
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *answerChooseViewTopConstraint;
 

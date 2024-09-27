@@ -30,6 +30,7 @@
 }
 
 - (void)beginAnswerChoosing {
+    [self.incorrectAnswerWarningLabel setHidden:YES];
     self.answerChooseViewTopConstraint.constant = -280;
     [UIView animateWithDuration: 0.5f animations:^{
         [self.view layoutIfNeeded];
@@ -50,8 +51,24 @@
         [self performSegueWithIdentifier:@"SegueCongrats" sender:nil];
     } else {
         // Incorrect
-        [self performSegueWithIdentifier:@"SegueCongrats" sender:nil];
+        [self shakeView:self.imageView];
+        [self.incorrectAnswerWarningLabel setHidden:NO];
     }
+}
+
+- (void)shakeView:(UIView *)viewToShake {
+    CGFloat t = 6.0;
+    CGAffineTransform translateRight = CGAffineTransformTranslate(CGAffineTransformIdentity, t, 0.0);
+    CGAffineTransform translateLeft = CGAffineTransformTranslate(CGAffineTransformIdentity, -t, 0.0);
+    viewToShake.transform = translateLeft;
+    [UIView animateWithDuration:0.001 delay:0.0 options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
+        [UIView setAnimationRepeatCount:2.0];
+        viewToShake.transform = translateRight;
+    } completion:^(BOOL finished) {
+        if (finished) {
+            viewToShake.transform = CGAffineTransformIdentity;
+        }
+    }];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

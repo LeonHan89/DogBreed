@@ -92,6 +92,12 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="7DX-Ed-Td3">
                                 <rect key="frame" x="178" y="305" width="37" height="37"/>
                             </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uh, Oh! Not quite right. Please try again!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMR-d7-cGz">
+                                <rect key="frame" x="48" y="610.66666666666663" width="297" height="57.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -100,6 +106,7 @@
                             <constraint firstItem="Hl0-6v-IeE" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="6XE-Md-b6M"/>
                             <constraint firstItem="dVK-r5-WRh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="DMv-X1-4EO"/>
                             <constraint firstItem="7DX-Ed-Td3" firstAttribute="centerY" secondItem="dVK-r5-WRh" secondAttribute="centerY" id="FiF-hc-Stv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="FMR-d7-cGz" secondAttribute="bottom" constant="150" id="KJ5-yk-5eB"/>
                             <constraint firstItem="7DX-Ed-Td3" firstAttribute="centerX" secondItem="dVK-r5-WRh" secondAttribute="centerX" id="M0f-37-Bd6"/>
                             <constraint firstItem="Hl0-6v-IeE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Qf3-Mx-IJ0"/>
                             <constraint firstItem="FlM-Qn-DzL" firstAttribute="top" secondItem="dVK-r5-WRh" secondAttribute="bottom" constant="36" id="VRh-va-ZKf"/>
@@ -109,7 +116,9 @@
                             <constraint firstItem="fH1-8e-DaX" firstAttribute="top" secondItem="Hl0-6v-IeE" secondAttribute="bottom" constant="16" id="ijd-od-2vY"/>
                             <constraint firstItem="dVK-r5-WRh" firstAttribute="top" secondItem="fH1-8e-DaX" secondAttribute="bottom" constant="40" id="jzb-DS-Z5S"/>
                             <constraint firstItem="dVK-r5-WRh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="64" id="nYL-JC-VLg"/>
+                            <constraint firstItem="FMR-d7-cGz" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="48" id="nfT-D2-rQG"/>
                             <constraint firstItem="S1T-LC-4Yp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="nuo-Xg-qjZ"/>
+                            <constraint firstItem="FMR-d7-cGz" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="qvs-t7-0tn"/>
                             <constraint firstItem="FlM-Qn-DzL" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="zX8-qx-f7N"/>
                         </constraints>
                     </view>
@@ -118,6 +127,7 @@
                         <outlet property="answerChooseViewTopConstraint" destination="eQy-7X-xlL" id="tjm-tu-qYN"/>
                         <outlet property="chooseAnswerButton" destination="FlM-Qn-DzL" id="3fP-Xm-a7x"/>
                         <outlet property="imageView" destination="dVK-r5-WRh" id="CC3-yY-v0p"/>
+                        <outlet property="incorrectAnswerWarningLabel" destination="FMR-d7-cGz" id="YGS-IE-oV7"/>
                         <outlet property="pickerView" destination="y52-da-Cog" id="vfW-Sm-oq9"/>
                         <segue destination="8io-Wg-3V2" kind="presentation" identifier="SegueCongrats" modalPresentationStyle="overFullScreen" id="bbo-U4-xx4"/>
                     </connections>
@@ -142,6 +152,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
