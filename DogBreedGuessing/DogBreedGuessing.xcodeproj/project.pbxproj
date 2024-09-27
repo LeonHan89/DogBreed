@@ -23,6 +23,7 @@
 		352C01E02CA5965200E9FCDC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01DF2CA5965200E9FCDC /* Home.storyboard */; };
 		352C01E32CA596DA00E9FCDC /* SlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01E22CA596DA00E9FCDC /* SlideMenuController.m */; };
 		352C01E62CA5970D00E9FCDC /* SlideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */; };
+		3587F2272CA69463001A2123 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3587F2262CA69463001A2123 /* MenuTableViewCell.m */; };
 		35F1437C2CA4088700AD18B7 /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437B2CA4088700AD18B7 /* Breed.m */; };
 		35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437F2CA5060C00AD18B7 /* DogAPIServiceManager.m */; };
 		35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F143852CA50A3500AD18B7 /* BreedsListService.m */; };
@@ -84,6 +85,8 @@
 		352C01E12CA596DA00E9FCDC /* SlideMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideMenuController.h; sourceTree = "<group>"; };
 		352C01E22CA596DA00E9FCDC /* SlideMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideMenuController.m; sourceTree = "<group>"; };
 		352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlideMenu.storyboard; sourceTree = "<group>"; };
+		3587F2252CA69463001A2123 /* MenuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		3587F2262CA69463001A2123 /* MenuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		35F1437A2CA4088700AD18B7 /* Breed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
 		35F1437B2CA4088700AD18B7 /* Breed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
 		35F1437E2CA5060C00AD18B7 /* DogAPIServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAPIServiceManager.h; sourceTree = "<group>"; };
@@ -281,6 +284,8 @@
 				352C01E12CA596DA00E9FCDC /* SlideMenuController.h */,
 				352C01E22CA596DA00E9FCDC /* SlideMenuController.m */,
 				352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */,
+				3587F2252CA69463001A2123 /* MenuTableViewCell.h */,
+				3587F2262CA69463001A2123 /* MenuTableViewCell.m */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -600,6 +605,7 @@
 				350D8ED52CA3EB89008DC9C8 /* main.m in Sources */,
 				35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */,
 				35F143892CA50A7B00AD18B7 /* BreedImageService.m in Sources */,
+				3587F2272CA69463001A2123 /* MenuTableViewCell.m in Sources */,
 				352C01D92CA589A000E9FCDC /* UIViewController+SlideMenu.m in Sources */,
 				352C01DA2CA589A000E9FCDC /* SlideMenu.m in Sources */,
 				35F1437C2CA4088700AD18B7 /* Breed.m in Sources */,

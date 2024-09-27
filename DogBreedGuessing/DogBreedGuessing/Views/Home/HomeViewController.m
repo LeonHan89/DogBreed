@@ -142,7 +142,7 @@
 // MARK: - Button event
 
 - (IBAction)menuButtonDidTap:(id)sender {
-    [self.slideMenu showMenuViewControllerAnimated:true];
+    [self.slideMenu showMenuViewControllerAnimated:YES];
 }
 
 - (IBAction)chooseAnswerDidTap:(id)sender {
@@ -153,6 +153,15 @@
     [self finishAnswerChoosing];
 }
 
-
+- (void)slideMenuDidSelectOption:(NSInteger)option {
+    [self.slideMenu showRootViewControllerAnimated:YES];
+    if (option == 0) {
+        // Gallery
+        [self performSegueWithIdentifier:@"SegueGallery" sender:nil];
+    } else {
+        // Profile
+        [self performSegueWithIdentifier:@"SegueProfile" sender:nil];
+    }
+}
 
 @end

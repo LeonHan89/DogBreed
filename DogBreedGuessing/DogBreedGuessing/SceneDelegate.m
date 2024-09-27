@@ -24,7 +24,7 @@
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     SlideMenuController *menuVC = [[UIStoryboard storyboardWithName:@"SlideMenu" bundle:nil] instantiateInitialViewController];
     HomeViewController *homeVC = [[UIStoryboard storyboardWithName:@"Home" bundle:nil] instantiateInitialViewController];
-    
+    menuVC.delegate = homeVC;
     UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
     [rootNav.navigationBar setHidden:YES];
     SlideMenu *slideMenu = [[SlideMenu alloc] initWithRootViewController:rootNav];

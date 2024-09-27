@@ -8,8 +8,9 @@
 #import <UIKit/UIKit.h>
 #import "Breed.h"
 #import "CongratsViewController.h"
+#import "SlideMenuController.h"
 
-@interface HomeViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, CongratsViewControllerDelegate>
+@interface HomeViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, CongratsViewControllerDelegate, SlideMenuControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;

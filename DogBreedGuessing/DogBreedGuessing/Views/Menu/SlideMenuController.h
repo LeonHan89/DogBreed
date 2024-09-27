@@ -7,6 +7,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SlideMenuController : UIViewController
+@protocol SlideMenuControllerDelegate <NSObject>
+
+- (void)slideMenuDidSelectOption:(NSInteger)option;
+
+@end
+
+@interface SlideMenuController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, weak) id<SlideMenuControllerDelegate> delegate;
 
 @end
