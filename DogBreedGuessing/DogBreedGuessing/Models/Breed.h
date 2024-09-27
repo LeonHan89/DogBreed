@@ -18,5 +18,6 @@
 - (instancetype)initWithKind:(NSString *)kind name:(NSString *)name;
 - (instancetype)initWithImageURLString:(NSString *)imageURLString;
 - (NSString *)breedStringForRequest;
+- (NSString *)breedStringForDisplay;
 
 @end

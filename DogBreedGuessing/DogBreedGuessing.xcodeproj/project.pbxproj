@@ -16,12 +16,20 @@
 		350D8ED62CA3EB89008DC9C8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 350D8ECB2CA3EB89008DC9C8 /* SceneDelegate.m */; };
 		352C01BB2CA57B4800E9FCDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */; };
 		352C01BE2CA57B5600E9FCDC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */; };
-		352C01C12CA57B6E00E9FCDC /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */; };
+		352C01C62CA5809300E9FCDC /* Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01C52CA5809300E9FCDC /* Gallery.storyboard */; };
+		352C01C82CA580A100E9FCDC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01C72CA580A100E9FCDC /* Profile.storyboard */; };
+		352C01D92CA589A000E9FCDC /* UIViewController+SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01D52CA589A000E9FCDC /* UIViewController+SlideMenu.m */; };
+		352C01DA2CA589A000E9FCDC /* SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01D72CA589A000E9FCDC /* SlideMenu.m */; };
+		352C01E02CA5965200E9FCDC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01DF2CA5965200E9FCDC /* Home.storyboard */; };
+		352C01E32CA596DA00E9FCDC /* SlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C01E22CA596DA00E9FCDC /* SlideMenuController.m */; };
+		352C01E62CA5970D00E9FCDC /* SlideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */; };
 		35F1437C2CA4088700AD18B7 /* Breed.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437B2CA4088700AD18B7 /* Breed.m */; };
 		35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1437F2CA5060C00AD18B7 /* DogAPIServiceManager.m */; };
 		35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F143852CA50A3500AD18B7 /* BreedsListService.m */; };
 		35F143892CA50A7B00AD18B7 /* BreedImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F143882CA50A7B00AD18B7 /* BreedImageService.m */; };
 		35F1438C2CA50BE600AD18B7 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1438B2CA50BE600AD18B7 /* BaseService.m */; };
+		35F1D1FA2CA6744500168EBF /* CongratsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F1D1F92CA6744500168EBF /* CongratsViewController.m */; };
+		35F1D1FC2CA6745000168EBF /* Congrats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F1D1FB2CA6745000168EBF /* Congrats.storyboard */; };
 		35FCF6F32CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F02CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m */; };
 		35FCF6F42CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F12CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m */; };
 		35FCF6FA2CA3EF820001BDD8 /* DogBreedGuessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCF6F82CA3EF820001BDD8 /* DogBreedGuessingTests.m */; };
@@ -66,8 +74,16 @@
 		352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 		352C01BC2CA57B5600E9FCDC /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		352C01BF2CA57B6E00E9FCDC /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
-		352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		352C01C52CA5809300E9FCDC /* Gallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gallery.storyboard; sourceTree = "<group>"; };
+		352C01C72CA580A100E9FCDC /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		352C01D42CA589A000E9FCDC /* UIViewController+SlideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SlideMenu.h"; sourceTree = "<group>"; };
+		352C01D52CA589A000E9FCDC /* UIViewController+SlideMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SlideMenu.m"; sourceTree = "<group>"; };
+		352C01D62CA589A000E9FCDC /* SlideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
+		352C01D72CA589A000E9FCDC /* SlideMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideMenu.m; sourceTree = "<group>"; };
+		352C01DF2CA5965200E9FCDC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		352C01E12CA596DA00E9FCDC /* SlideMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideMenuController.h; sourceTree = "<group>"; };
+		352C01E22CA596DA00E9FCDC /* SlideMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideMenuController.m; sourceTree = "<group>"; };
+		352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlideMenu.storyboard; sourceTree = "<group>"; };
 		35F1437A2CA4088700AD18B7 /* Breed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Breed.h; sourceTree = "<group>"; };
 		35F1437B2CA4088700AD18B7 /* Breed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Breed.m; sourceTree = "<group>"; };
 		35F1437E2CA5060C00AD18B7 /* DogAPIServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogAPIServiceManager.h; sourceTree = "<group>"; };
@@ -78,6 +94,9 @@
 		35F143882CA50A7B00AD18B7 /* BreedImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreedImageService.m; sourceTree = "<group>"; };
 		35F1438A2CA50BE600AD18B7 /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
 		35F1438B2CA50BE600AD18B7 /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		35F1D1F82CA6744500168EBF /* CongratsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CongratsViewController.h; sourceTree = "<group>"; };
+		35F1D1F92CA6744500168EBF /* CongratsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CongratsViewController.m; sourceTree = "<group>"; };
+		35F1D1FB2CA6745000168EBF /* Congrats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Congrats.storyboard; sourceTree = "<group>"; };
 		35FCF6F02CA3EF0E0001BDD8 /* DogBreedGuessingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingUITests.m; sourceTree = "<group>"; };
 		35FCF6F12CA3EF0E0001BDD8 /* DogBreedGuessingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingUITestsLaunchTests.m; sourceTree = "<group>"; };
 		35FCF6F82CA3EF820001BDD8 /* DogBreedGuessingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogBreedGuessingTests.m; sourceTree = "<group>"; };
@@ -162,6 +181,7 @@
 		350D8EBC2CA3EB89008DC9C8 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				352C01D82CA589A000E9FCDC /* SlideMenu */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -169,8 +189,10 @@
 		350D8EC12CA3EB89008DC9C8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				35F1D1F72CA6743200168EBF /* CongratsPage */,
 				350D8EBF2CA3EB89008DC9C8 /* HomeViewController.h */,
 				350D8EC02CA3EB89008DC9C8 /* HomeViewController.m */,
+				352C01DF2CA5965200E9FCDC /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -186,10 +208,11 @@
 		350D8EC52CA3EB89008DC9C8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				352C01E42CA596F700E9FCDC /* Menu */,
 				350D8EC12CA3EB89008DC9C8 /* Home */,
 				352C01B02CA57A0300E9FCDC /* Gallery */,
 				352C01B12CA57A1600E9FCDC /* Profile */,
-				352C01B52CA57A5300E9FCDC /* MainPage */,
+				352C01DE2CA5955E00E9FCDC /* MainPage */,
 				350D8EC42CA3EB89008DC9C8 /* LaunchScreen */,
 			);
 			path = Views;
@@ -218,6 +241,7 @@
 			children = (
 				352C01B92CA57B4800E9FCDC /* GalleryViewController.h */,
 				352C01BA2CA57B4800E9FCDC /* GalleryViewController.m */,
+				352C01C52CA5809300E9FCDC /* Gallery.storyboard */,
 			);
 			path = Gallery;
 			sourceTree = "<group>";
@@ -227,18 +251,38 @@
 			children = (
 				352C01BC2CA57B5600E9FCDC /* ProfileViewController.h */,
 				352C01BD2CA57B5600E9FCDC /* ProfileViewController.m */,
+				352C01C72CA580A100E9FCDC /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		352C01B52CA57A5300E9FCDC /* MainPage */ = {
+		352C01D82CA589A000E9FCDC /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				352C01D42CA589A000E9FCDC /* UIViewController+SlideMenu.h */,
+				352C01D52CA589A000E9FCDC /* UIViewController+SlideMenu.m */,
+				352C01D62CA589A000E9FCDC /* SlideMenu.h */,
+				352C01D72CA589A000E9FCDC /* SlideMenu.m */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		352C01DE2CA5955E00E9FCDC /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
 				350D8EBE2CA3EB89008DC9C8 /* Main.storyboard */,
-				352C01BF2CA57B6E00E9FCDC /* MainTabBarController.h */,
-				352C01C02CA57B6E00E9FCDC /* MainTabBarController.m */,
 			);
 			path = MainPage;
+			sourceTree = "<group>";
+		};
+		352C01E42CA596F700E9FCDC /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				352C01E12CA596DA00E9FCDC /* SlideMenuController.h */,
+				352C01E22CA596DA00E9FCDC /* SlideMenuController.m */,
+				352C01E52CA5970D00E9FCDC /* SlideMenu.storyboard */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		35F143792CA400DB00AD18B7 /* Services */ = {
@@ -254,6 +298,16 @@
 				35F1438B2CA50BE600AD18B7 /* BaseService.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		35F1D1F72CA6743200168EBF /* CongratsPage */ = {
+			isa = PBXGroup;
+			children = (
+				35F1D1F82CA6744500168EBF /* CongratsViewController.h */,
+				35F1D1F92CA6744500168EBF /* CongratsViewController.m */,
+				35F1D1FB2CA6745000168EBF /* Congrats.storyboard */,
+			);
+			path = CongratsPage;
 			sourceTree = "<group>";
 		};
 		35FCF6F22CA3EF0E0001BDD8 /* DogBreedGuessingUITests */ = {
@@ -406,6 +460,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				350D8ECE2CA3EB89008DC9C8 /* Assets.xcassets in Resources */,
+				352C01C62CA5809300E9FCDC /* Gallery.storyboard in Resources */,
+				352C01C82CA580A100E9FCDC /* Profile.storyboard in Resources */,
+				35F1D1FC2CA6745000168EBF /* Congrats.storyboard in Resources */,
+				352C01E02CA5965200E9FCDC /* Home.storyboard in Resources */,
+				352C01E62CA5970D00E9FCDC /* SlideMenu.storyboard in Resources */,
 				350D8ECF2CA3EB89008DC9C8 /* Main.storyboard in Resources */,
 				350D8ED02CA3EB89008DC9C8 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -537,14 +596,17 @@
 			files = (
 				350D8ED32CA3EB89008DC9C8 /* HomeViewController.m in Sources */,
 				350D8ED42CA3EB89008DC9C8 /* AppDelegate.m in Sources */,
-				352C01C12CA57B6E00E9FCDC /* MainTabBarController.m in Sources */,
 				35F1438C2CA50BE600AD18B7 /* BaseService.m in Sources */,
 				350D8ED52CA3EB89008DC9C8 /* main.m in Sources */,
 				35F143802CA5060C00AD18B7 /* DogAPIServiceManager.m in Sources */,
 				35F143892CA50A7B00AD18B7 /* BreedImageService.m in Sources */,
+				352C01D92CA589A000E9FCDC /* UIViewController+SlideMenu.m in Sources */,
+				352C01DA2CA589A000E9FCDC /* SlideMenu.m in Sources */,
 				35F1437C2CA4088700AD18B7 /* Breed.m in Sources */,
 				35F143862CA50A3500AD18B7 /* BreedsListService.m in Sources */,
+				352C01E32CA596DA00E9FCDC /* SlideMenuController.m in Sources */,
 				352C01BE2CA57B5600E9FCDC /* ProfileViewController.m in Sources */,
+				35F1D1FA2CA6744500168EBF /* CongratsViewController.m in Sources */,
 				350D8ED62CA3EB89008DC9C8 /* SceneDelegate.m in Sources */,
 				352C01BB2CA57B4800E9FCDC /* GalleryViewController.m in Sources */,
 			);
@@ -630,6 +692,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leonhan.DogBreedGuessing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DogBreedGuessing/Utils/DogBreedGuessing-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,6 +727,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.leonhan.DogBreedGuessing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DogBreedGuessing/Utils/DogBreedGuessing-Bridging-Header.h";
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

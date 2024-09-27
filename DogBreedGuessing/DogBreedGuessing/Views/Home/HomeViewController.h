@@ -6,11 +6,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ConfettiView/ConfettiView-Swift.h>
+#import "Breed.h"
+#import "CongratsViewController.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, CongratsViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
+@property (weak, nonatomic) IBOutlet UIButton *chooseAnswerButton;
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *answerChooseViewTopConstraint;
+
+@property (strong, nonatomic) NSArray<Breed *> *dataSource;
+@property (strong, nonatomic) Breed *answer;
+@property (strong, nonatomic) Breed *breedForImage;
+
+@property (assign, nonatomic) BOOL isFetchingData;
 
 @end
 

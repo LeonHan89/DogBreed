@@ -43,4 +43,15 @@
     return string;
 }
 
+- (NSString *)breedStringForDisplay {
+    NSString *string = @"";
+    if (self.name) {
+        string = [string stringByAppendingFormat:@"%@ ", self.name];
+    }
+    if (self.kind) {
+        string = [string stringByAppendingFormat:@"%@", self.kind];
+    }
+    return string;
+}
+
 @end

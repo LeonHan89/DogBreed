@@ -9,7 +9,6 @@ target 'DogBreedGuessing' do
 
   # Pods for DogBreedGuessing
   pod 'SDWebImage'
-  pod 'ConfettiView-NSHipster'
 
   target 'DogBreedGuessingTests' do
     inherit! :search_paths

@@ -1,101 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hvz-8R-J8E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J9A-WI-0DN">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Tab Bar Controller-->
-        <scene sceneID="C3I-Zq-IMS">
+        <!--Navigation Controller-->
+        <scene sceneID="gtV-SZ-i8q">
             <objects>
-                <tabBarController id="Hvz-8R-J8E" customClass="MainTabBarController" customModule="DogBreedGuessing" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jdp-ee-sFX">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                <navigationController id="J9A-WI-0DN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ehm-7a-3rd">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
+                    </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="o5e-59-DEU"/>
-                        <segue destination="HdW-Im-E1p" kind="relationship" relationship="viewControllers" id="loC-6N-Atd"/>
-                        <segue destination="cz3-Pu-UVX" kind="relationship" relationship="viewControllers" id="yUr-ii-dFn"/>
+                        <segue destination="pbp-pJ-6q9" kind="relationship" relationship="rootViewController" id="4Fv-wF-xat"/>
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1J-QB-BVX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ugl-s7-NPl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-769" y="-849"/>
+            <point key="canvasLocation" x="920" y="-1766"/>
         </scene>
         <!--Home-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Exq-xj-3Jh">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="DogBreedGuessing" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="Cy2-oW-ljV">
-                        <imageReference key="image" image="house" catalog="system" renderingMode="template"/>
-                        <imageReference key="selectedImage" image="house.fill" catalog="system" renderingMode="original"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Home" id="pbp-pJ-6q9" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4Tm-GY-jqw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVD-E3-Y5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1027" y="-1602"/>
-        </scene>
-        <!--Gallery-->
-        <scene sceneID="8dp-AR-tnl">
-            <objects>
-                <viewController id="HdW-Im-E1p" customClass="GalleryViewController" customModule="DogBreedGuessing" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="N9k-RE-iIs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="R6A-gr-TjR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" id="lUy-kL-dFr">
-                        <imageReference key="image" image="books.vertical" catalog="system" renderingMode="template"/>
-                        <imageReference key="selectedImage" image="books.vertical.fill" catalog="system" renderingMode="original"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QBp-qQ-LPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1027" y="-936"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="8up-Gp-sd5">
-            <objects>
-                <viewController id="cz3-Pu-UVX" customClass="ProfileViewController" customModule="DogBreedGuessing" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cS8-1M-aaG">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="hab-po-kY1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="24P-NN-rGy">
-                        <imageReference key="image" image="person" catalog="system" renderingMode="template"/>
-                        <imageReference key="selectedImage" image="person.fill" catalog="system" renderingMode="original"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ja7-l3-lq0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1027" y="-276"/>
+            <point key="canvasLocation" x="1940" y="-1766"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="books.vertical" catalog="system" width="128" height="107"/>
-        <image name="books.vertical.fill" catalog="system" width="128" height="110"/>
-        <image name="house" catalog="system" width="128" height="104"/>
-        <image name="house.fill" catalog="system" width="128" height="104"/>
-        <image name="person" catalog="system" width="128" height="121"/>
-        <image name="person.fill" catalog="system" width="128" height="120"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
