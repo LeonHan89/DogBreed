@@ -131,7 +131,6 @@
                         <outlet property="pickerView" destination="y52-da-Cog" id="vfW-Sm-oq9"/>
                         <segue destination="8io-Wg-3V2" kind="presentation" identifier="SegueCongrats" modalPresentationStyle="overFullScreen" id="bbo-U4-xx4"/>
                         <segue destination="n5A-FD-AGa" kind="show" identifier="SegueGallery" id="z5h-Ym-ZgA"/>
-                        <segue destination="CiG-5z-Ydv" kind="show" identifier="SegueProfile" id="BtE-Os-uMz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -146,17 +145,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cju-bX-Ujj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="-182"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="Lwd-c5-w6o">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="CiG-5z-Ydv" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Vun-mm-d8f"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="So1-JH-hFJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="877" y="-94"/>
+            <point key="canvasLocation" x="998" y="-137"/>
         </scene>
         <!--Congrats-->
         <scene sceneID="ytG-yi-ZZt">

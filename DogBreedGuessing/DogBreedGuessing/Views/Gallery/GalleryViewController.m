@@ -15,6 +15,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)onDismiss:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     GalleryTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GalleryCell"];
     cell.titleLabel.text = [self.dataSource[indexPath.row] breedStringForDisplay];

@@ -163,8 +163,7 @@
         // Gallery
         [self performSegueWithIdentifier:@"SegueGallery" sender:nil];
     } else {
-        // Profile
-        [self performSegueWithIdentifier:@"SegueProfile" sender:nil];
+        // Maybe Profile page or other
     }
 }
 

@@ -27,15 +27,14 @@
         [cell.thumbnailImageView setImage:[UIImage systemImageNamed:@"books.vertical"]];
         cell.titleLabel.text = @"Gallery";
     } else {
-        [cell.thumbnailImageView setImage:[UIImage systemImageNamed:@"person"]];
-        cell.titleLabel.text = @"Profile";
+        // Maybe can add more functions
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section { 
-    return 2;
+    return 1;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
